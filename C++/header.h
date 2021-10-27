@@ -170,7 +170,7 @@ void RSA::RSA_Enc(std::string received_message) {
     }
 }
 
-// Decripta a mensagem
+// Decifra a mensagem
 void RSA::RSA_Dec(std::vector<int> received_message) {
     for(auto x = received_message.begin(); x != received_message.end(); ++x){
         unsigned my_char = *x;
